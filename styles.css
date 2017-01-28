@@ -1,0 +1,181 @@
+body{
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
+.card{
+	border-width: 20px;
+	border-color: white;
+	border-style: solid;
+	height: 450px;
+	width: 340px;
+
+}
+#card1{
+	background-image: url('../assets/mtg.jpg');
+}
+#card1:hover{
+	animation-duration: 4s;
+	animation-name: cow;
+}
+@keyframes cow {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card2{
+	background-image: url('../assets/mtg.jpg');
+}
+#card2:hover{
+	animation-duration: 4s;
+	animation-name: cow2;
+}
+#card2:active{
+	animation-name: cow2a
+}
+@keyframes cow2 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+@keyframes cow2a {
+	from {
+		background-color: blue;
+		transform: rotateX(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card3{
+	background-image: url('../assets/mtg.jpg');
+}
+#card3:hover{
+	animation-duration: 4s;
+	animation-name: cow3;
+}
+@keyframes cow3 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card4{
+	background-image: url('../assets/mtg.jpg');
+}
+#card4:hover{
+	animation-duration: 4s;
+	animation-name: cow4;
+}
+@keyframes cow4 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card5{
+	background-image: url('../assets/mtg.jpg');
+}
+#card5:hover{
+	animation-duration: 4s;
+	animation-name: cow5;
+}
+@keyframes cow5 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+
+		rotate y
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card6{
+	background-image: url('../assets/mtg.jpg');
+}
+#card6:hover{
+	animation-duration: 4s;
+	animation-name: cow6;
+}
+@keyframes cow6 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card7{
+	background-image: url('../assets/mtg.jpg');
+}
+#card7:hover{
+	animation-duration: 4s;
+	animation-name: cow7;
+}
+@keyframes cow7 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card8{
+	background-image: url('../assets/mtg.jpg');
+}
+#card8:hover{
+	animation-duration: 4s;
+	animation-name: cow8;
+}
+@keyframes cow8 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card9{
+	background-image: url('../assets/mtg.jpg');
+}
+#card9:hover{
+	animation-duration: 4s;
+	animation-name: cow9;
+}
+@keyframes cow9 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
