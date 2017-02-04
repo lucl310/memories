@@ -1,0 +1,294 @@
+body{
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
+#bodyWrapper{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content:space-between;
+	border-style: solid 2px;
+}
+.card{
+	border-width: 20px;
+	border-color: white;
+	border-style: solid;
+	height: 450px;
+	width: 340px;
+	flex: 0 0 50px;
+
+}
+.card{
+	background-image: url('../assets/seizure.gif');
+	animation-duration: .000000001s;
+	animation-name: cow;
+	animation-iteration-count:infinite;
+}
+	
+#card1:active{
+	animation-duration: 4s;
+	animation-name: train;
+}
+@keyframes train {
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
+@keyframes cow {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999deg);
+	}
+}
+#card2{
+
+}
+/*#card2:hover{
+	animation-duration: 4s;
+	animation-name: cow2;
+}*/
+#card2:active{
+	animation-duration: 4s;
+	animation-name: train1;
+}
+@keyframes train1 {
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(180deg);
+	}
+}
+@keyframes cow2 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+@keyframes cow2a {
+	from {
+		background-color: blue;
+		transform: rotateX(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card3{
+
+}
+/*#card3:hover{
+	animation-duration: 4s;
+	animation-name: cow3;
+}*/
+#card3:active{
+	animation-duration: 4s;
+	animation-name: train2;
+}
+@keyframes train2 {
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(180deg);
+	}
+}
+@keyframes cow3 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card4{
+
+}
+/*#card4:hover{
+	animation-duration: 4s;
+	animation-name: cow4;
+}*/
+#card4:active{
+	animation-duration: 4s;
+	animation-name: train3;
+}
+@keyframes train3 {
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(180deg);
+	}
+}
+@keyframes cow4 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card5{
+
+}
+/*#card5:hover{
+	animation-duration: 4s;
+	animation-name: cow5;
+}*/
+#card5:active{
+	animation-duration: 4s;
+	animation-name: train4;
+}
+@keyframes train4 {
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(180deg);
+	}
+}
+@keyframes cow5 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+
+		rotate y
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card6{
+
+}
+/*#card6:hover{
+	animation-duration: 4s;
+	animation-name: cow6;
+}*/
+#card6:active{
+	animation-duration: 4s;
+	animation-name: train5;
+}
+@keyframes train5 {
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(180deg);
+	}
+}
+@keyframes cow6 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card7{
+
+}
+/*#card7:hover{
+	animation-duration: 4s;
+	animation-name: cow7;
+}*/
+#card7:active{
+	animation-duration: 4s;
+	animation-name: train6;
+}
+@keyframes train6 {
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(180deg);
+	}
+}
+@keyframes cow7 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card8{
+
+}
+/*#card8:hover{
+	animation-duration: 4s;
+	animation-name: cow8;
+}*/
+#card8:active{
+	animation-duration: 4s;
+	animation-name: train7;
+}
+@keyframes train7 {
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(180deg);
+	}
+}
+@keyframes cow8 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
+#card9{
+
+}
+/*#card9:hover{
+	animation-duration: 4s;
+	animation-name: cow9;
+}*/
+#card9:active{
+	animation-duration: 4s;
+	animation-name: train8;
+}
+@keyframes train8 {
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(180deg);
+	}
+}
+@keyframes cow9 {
+	from {
+		background-color: blue;
+		transform: rotate(0deg);
+	}
+	to{
+		background-color: green;
+		transform: rotate(360deg);
+	}
+}
